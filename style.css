@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("5605343.jpg");
+    font-family: 'Roboto';
+}
+.quiz-heading {
+    background-image: url("5605343.jpg");
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    font-family: Sans-serif;
+}
+
+.question-card {
+    background-image: url("5605343.jpg");
+    max-width: 600px;
+    width: 90%;
+    padding: 15px 20px;
+    margin: 50px auto;
+    color: #D4EDDA;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input {
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.submit {
+    background: #FFC107;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 15px;
+}
+.next {
+    background: #FFC107;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+li {
+    margin: 20px;
+}
+.answer-label {
+    background: #1d0aec;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 5px;
+}
+.correct {
+    background: #0c2bde;
+    color: #f1f5f3;
+    margin: 5px 0px -15px 0px !important;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.incorrect {
+    background: #0c2bde;
+    color: #f1f5f3;
+    margin: 5px 0px -15px 0px !important;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.idle {
+    margin: 0px !important;
+    padding: 0px;
+    visibility: hidden;
+}
+.app-body {
+    max-width: 600px;
+    width: 90%;
+    padding: 10px 10px;
+    margin: 0px auto;
+}
+.answer-key {
+    margin: 0px 10px;
+    color: #D4EDDA;
+    display: none;
+}
+button {
+    background: #17A2B8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 15px;
+    margin: 0px 10px;
+    display: none;
+}
+
+.submit {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
